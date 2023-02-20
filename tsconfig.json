@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "pretty": true,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./build",
+    "allowJs": true
+  },
+  "lib": ["es2015"],
+  "include": ["src", "tests", "prisma/seed.ts"],
+  "exclude": ["./node_modules/"]
+}
