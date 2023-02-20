@@ -50,7 +50,7 @@ Start the mongo db
 ```
 
 ## Things to do
--remove .env
--clean up unnecessary dependencies
--update test cases
+*remove .env
+*clean up unnecessary dependencies
+*update test cases
 
