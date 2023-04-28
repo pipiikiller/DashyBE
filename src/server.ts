@@ -7,7 +7,7 @@ import PingController from './controllers/ping'
 import UserDataController from './controllers/users.controller'
 import cors from './middlewares/cors'
 import validateEnv from './utils/validateEnv'
-import AuthenticationController from './controllers/auth'
+// import AuthenticationController from './controllers/auth'
 import { errorLogger, requestLogger } from './utils/logger'
 import errors from './middlewares/error'
 import mongoose from 'mongoose'
@@ -18,7 +18,7 @@ const app = new App({
   controllers: [
     new PingController(),
     new UserDataController(),
-    new AuthenticationController(),
+    // new AuthenticationController(),
     new ProjectController()
   ],
   middleWares: [
